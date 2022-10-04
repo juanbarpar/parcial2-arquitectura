@@ -6,8 +6,8 @@ import co.edu.unisabana.parcialarquitectura.repository.Database;
 public class Buy {
 
   Database database;
-  public Buy(Database db) {
-    this.database = db;
+  public Buy(Database database) {
+    this.database = database;
   }
 
   public String makePurchase(int vendorCode, int buyerCode, String item) {
